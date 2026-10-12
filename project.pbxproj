@@ -1,0 +1,116 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		A10000000000000000000001 /* FilmStyleCamera.app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000010;
+			buildPhases = (
+				A10000000000000000000020 /* Sources */,
+				A10000000000000000000021 /* Frameworks */,
+				A10000000000000000000022 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = FilmStyleCamera;
+			productName = FilmStyleCamera;
+			productReference = A10000000000000000000002;
+			productType = "com.apple.product-type.application";
+		};
+		A10000000000000000000002 /* FilmStyleCamera.app */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = FilmStyleCamera.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A10000000000000000000003 /* FilmStyleCameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmStyleCameraApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000004 /* CameraHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraHomeView.swift; sourceTree = "<group>"; };
+		A10000000000000000000005 /* DotPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotPalette.swift; sourceTree = "<group>"; };
+		A10000000000000000000006 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		A10000000000000000000007 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		A10000000000000000000008 /* FilterEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterEngine.swift; sourceTree = "<group>"; };
+		A10000000000000000000009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000011 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000003,
+				A10000000000000000000004,
+				A10000000000000000000005,
+				A10000000000000000000006,
+				A10000000000000000000007,
+				A10000000000000000000008,
+				A10000000000000000000009,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000012 /* Products */ = {isa = PBXGroup; children = (A10000000000000000000002,); name = Products; sourceTree = "<group>"; };
+		A10000000000000000000013 /* Project */ = {isa = PBXGroup; children = (A10000000000000000000011, A10000000000000000000012); sourceTree = "<group>"; };
+		A10000000000000000000020 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+			A10000000000000000000031,
+			A10000000000000000000032,
+			A10000000000000000000033,
+			A10000000000000000000034,
+			A10000000000000000000035,
+			A10000000000000000000036,
+		); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000021 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000022 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000031 /* FilmStyleCameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000003; };
+		A10000000000000000000032 /* CameraHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000004; };
+		A10000000000000000000033 /* DotPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000005; };
+		A10000000000000000000034 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000006; };
+		A10000000000000000000035 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000007; };
+		A10000000000000000000036 /* FilterEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000008; };
+		A10000000000000000000010 /* Build configuration list for PBXNativeTarget */ = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000040, A10000000000000000000041); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A10000000000000000000014 /* Project config list */ = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000042, A10000000000000000000043); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A10000000000000000000015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = { A10000000000000000000001 = { CreatedOnToolsVersion = 26.0; }; };
+			};
+			buildConfigurationList = A10000000000000000000014;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = A10000000000000000000013;
+			productRefGroup = A10000000000000000000012;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (A10000000000000000000001);
+		};
+		A10000000000000000000040 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ASSETCATALOG_COMPILER_APPICON_NAME = "";
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.example.FilmStyleCamera;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+		}; };
+		A10000000000000000000041 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ASSETCATALOG_COMPILER_APPICON_NAME = "";
+			CURRENT_PROJECT_VERSION = 1;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.example.FilmStyleCamera;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+		}; };
+		A10000000000000000000042 /* Debug project */ = {isa = XCBuildConfiguration; buildSettings = {IPHONEOS_DEPLOYMENT_TARGET = 18.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; }; };
+		A10000000000000000000043 /* Release project */ = {isa = XCBuildConfiguration; buildSettings = {IPHONEOS_DEPLOYMENT_TARGET = 18.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; }; };
+	};
+	rootObject = A10000000000000000000015;
+}
