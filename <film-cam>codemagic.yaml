@@ -1,4 +1,3 @@
-workflows:
-    ios-workflow-id:
-        name: iOS Sample Workflow
-        # ......
+git add codemagic.yaml 
+git commit -m 'iOS Sample Workflow' 
+git push
